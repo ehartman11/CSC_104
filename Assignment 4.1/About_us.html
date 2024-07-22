@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Ethan Hartman">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>About Us Page</title>
+
+</head>
+<body>
+    <img src="goofy_python.png">
+    <h1>About Us</h1>
+    <img src="GitHub_1.jpg" id="myPhoto">
+    <nav id="homeLink" class="sideVertNav">
+        <a href="CSC104_index.html">Home</a>
+    </nav>
+    <aside>
+        <p>Hello Aspiring Pythonist! <br>
+            I'm glad you could make it to the Hub, and I hope you found it to your liking.<br><br>
+            My name is Ethan Hartman. I found myself beginning to walk the programming <br>
+            path about two years ago as I was starting my second deployment in the navy, <br>
+            and I quickly jumped down the rabbit hole into the wonderful world of Python.<br>
+            As a beginner I found that it was the most intuitive syntactic design that gave <br>
+            me the greatest boost in learning the fundamentals of programming.<br><br>
+            It so inspired me that I began to truly pursue computer science as career field <br>
+            last year. I couldn't think of a better way to give back than to do my part in <br>
+            attempting to connect as many other new programmers, and those more advanced, <br>
+            to the many resources I have used that have helped me along my own journey.<br><br>
+            Please continue to utilize this site as a jumpstart into learning and achieving <br>
+            your own goals and dreams. All are welcome to email me with any questions or <br>
+            suggestions, or just to say hi!<br>
+            Always remember:<br>
+            "Any fool can write code that a computer can understand.<br>
+            Good programmers write code that humans can understand"<br>
+            <caption>-Martin Fowler</caption>
+        </p>
+    </aside>
+   
+    
+    <form method="post" action="mailto: ephartman1@gmail.com"  enctype="multipart/form-data">
+        <fieldset id="custInfo">
+            <label for="custName">Name</label>
+            <input name="custName" id="custName" />
+
+            <label for="custEmail">Your E-mail</label>
+            <input name="custEmail" id="email" />
+
+            <label for="topic">Topic</label>
+            <input name="topic" id="topic" />
+
+            <div id="message">
+                Message:<br>
+                <textarea rows="10"
+                          cols="50"
+                          name="message">
+                </textarea>
+            </div>
+            <div>
+                <input type="submit" value="submit">
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+</html>

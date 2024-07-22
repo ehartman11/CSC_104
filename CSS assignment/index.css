@@ -1,0 +1,90 @@
+/*Set a background for the html doc*/
+html {
+  background-image: url("Zen Garden.png");
+  background-size: cover;
+}
+
+/*Set body properties*/
+body {
+  /*Font color*/
+  color:rgb(202, 161, 107);
+  /*Font family*/
+  font-family: 'Times New Roman', Times, serif;
+  /*Align text to center*/
+  text-align: center;
+}
+
+/*Set Header properties*/
+h1 {
+  /*Underline the text*/
+  text-decoration: underline;
+  /*Make the underline wavy*/
+  text-decoration-style:double;
+}
+
+/*Set unordered list properties*/
+ul {
+  font-weight:bolder;
+  font-size: large;
+  color:tan;
+  background-color: rgba(42, 71, 71, 0.7);
+  /*Treat the list as a table*/
+  display:table;
+  /*Pad the table(list) on the left-hand side to bring it alongside the image*/
+  align-self: center;
+  list-style-type:none;
+  margin-left: 155px;
+}
+
+div{
+  align-content: center;
+}
+
+/*Set footer properties*/
+footer {
+  color:black;
+  /*Add space between the box and the line above it*/
+  margin-top: 10px;
+  /*Move the right margin of the box towards the center %d px*/
+  margin-left: 100px;
+  margin-right: 100px;
+  /*Add some splace between the lines inside the box*/
+  line-height: 200%;
+  /*Change the color of the box's background*/
+  background-color: rgba(214, 214, 214, 0.808);
+  /*Make a border around the box (top, sides, bottom)*/
+  border-style:inset double inset;
+  /*Set width of the border*/
+  border-width: 5px;
+  /*Set color of the border*/
+  border-color: black;
+
+}
+
+/*Set properties of id=link (hyperlinks located inside the footer)*/
+#link{
+  /*Underline the links*/
+  text-decoration: underline;
+  /*Color the links*/
+  color: forestgreen;
+  /*Make the link text bold*/
+  font-weight: bold;
+  /*Increase the size of the link text*/
+  font-size: 115%;
+}
+
+#caption{
+  color: white;
+}
+
+a:link{
+  color: azure;
+}
+
+a:hover{
+  background-color: black;
+}
+
+a:visited{
+  color:red
+}
